@@ -1,0 +1,7 @@
+list how we can make accessable our web site:-
+
+1.we can 'alt' attributes in img tag so that if it fails to render it will give the user information about that picture.
+
+2.we can use 'tabindex' attribute in form so that user can directly go to his/her prefered option by clicking tab.
+
+3.we should use proper semantic tag like <header> , <footer> to give proper structure of our web site that will be helpful for screen readers

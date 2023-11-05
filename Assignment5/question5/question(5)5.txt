@@ -1,0 +1,3 @@
+what is favicon give an illustrative example.
+ans:- favicon means favourite icon. we can put our favourite image in the search tab of our web site
+	

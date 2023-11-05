@@ -1,0 +1,2 @@
+justify-items: It helps us to align grid children in the inline direction.
+justify-self: It helps us to align grid item within the grid cell.

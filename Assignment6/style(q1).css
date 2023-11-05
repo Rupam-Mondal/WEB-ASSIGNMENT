@@ -1,0 +1,15 @@
+.block{
+    background-color: aqua;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
+.block img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+.colour{
+    color: green;
+}

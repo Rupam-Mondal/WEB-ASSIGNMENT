@@ -1,0 +1,17 @@
+@media (max-width:950px) {
+    .navmidchild a {
+        display: none;
+    }
+
+    .navmidchild:hover {
+        box-sizing: border-box;
+        border-bottom: none;
+        cursor: none;
+    }
+}
+@media (max-width:1115px) {
+    .firstbodychild .dream{
+        font-size: 3rem;
+        margin-top: 20%;
+    }
+}

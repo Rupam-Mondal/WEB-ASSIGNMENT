@@ -1,0 +1,9 @@
+HTML entities:-HTML entities are some speacial code that represents some speacial character. If we just write the code in our HTML code then the character will be visible in the web site
+
+ex-
+	1.&amp or &#38 helps to render '&' sign in web page
+	2.&copy or &#169 helps to render copyright symbol.
+	3.&reg or &#174 helps to render register symbol.
+	4.&gt or &#62 helps to render greaterthan symbol.
+	5.&lt or &#60 helps to render lessthan sysmbol
+

@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: row;
+}
+.box{
+    width: 50%;
+    height: 100vh;
+}
+img{
+    margin: 0;
+    padding: 0;
+}
+.logo1{
+    height: 70%;
+    width: 90%;
+    margin-top: 27px;
+}
+.logo2{
+    height: 70%;
+    width: 60%;
+    margin-top: 27px;
+    margin-right: 10px;
+}

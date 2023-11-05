@@ -1,0 +1,4 @@
+4.Tag:
+In html tag refers to specific set of characters which enclose by<>
+Element:-
+html is constructed with elements. Each element consist of opening tag , content , closing tag

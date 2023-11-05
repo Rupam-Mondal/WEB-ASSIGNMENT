@@ -1,0 +1,5 @@
+CSS Flexbox is for one-dimensional layouts (either rows or columns) with flexible, content-driven sizing.
+
+CSS Grid is for two-dimensional grid layouts, ideal for precise control over both rows and columns in fixed layouts.
+
+when to use:- we should Choose Flexbox for simple, flexible layouts, and Grid for complex, structured grids. You can also use them together when needed.

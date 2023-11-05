@@ -1,0 +1,8 @@
+git workflow:-
+1.working directory - First edit files in the local machine that is known as working directory. T initialize git
+                    write command git init.
+2.staging - Now we have to use git add filename to send our file into staging area.
+
+3.Commit - In next step we have to use git commit -m "message"
+
+4.Repo - After commiting now it is on repository now it is ready to push on github or other services.

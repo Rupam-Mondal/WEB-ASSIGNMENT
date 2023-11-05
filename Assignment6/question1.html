@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style(q1).css">
+    <style>
+        .container{
+            background-color: yellow;
+            height: 200px;
+            width: 200px;
+        }
+        .container p{
+            overflow: scroll;
+            max-height: 200px;
+        }
+        .colour{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <!-- inline css -->
+    <h1 style="font-family: 'Courier New', Courier, monospace; color: aqua;">Lorem ipsum dolor sit amet, consectetur adipisicing.</h1>
+
+    <!-- internal css -->
+    <div class="container">
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, aspernatur? Dolore distinctio modi et pariatur, dolorem nostrum eius velit voluptates asperiores nemo blanditiis, consequuntur ab, at nisi. Temporibus nihil expedita autem, accusantium, dicta deleniti laborum doloribus, dolore laudantium enim dolorem eos consequuntur ratione neque officiis reprehenderit saepe maxime reiciendis illum id? Quo, explicabo tempora. Quia facere qui sit maiores. Corporis magnam facere commodi corrupti enim nihil distinctio recusandae alias blanditiis praesentium! Assumenda, deleniti perspiciatis odio quia beatae nam. Autem dolorem facilis assumenda. Blanditiis, unde, illum modi tempora aliquid dolorem minus natus eius quasi ratione odit a nihil esse eveniet cum.
+        </p>
+    </div>
+
+    <!-- External css -->
+    <div class="block">
+        <img src="https://media.licdn.com/dms/image/D4E16AQFs1ECHtsX_7A/profile-displaybackgroundimage-shrink_350_1400/0/1664861794033?e=1701302400&v=beta&t=77wWe7zPTSNzM23DXnvbqWshMcKtMVD_GY1UrlAgZFo" alt="">
+    </div>
+
+
+    <!-- targeting one element by three type of styling -->
+    <div class="colour" style="color: red;">
+        <h1>Lorem ipsum dolor sit, amet consectetur adipisicing.</h1>
+    </div>
+
+    <!-- the color will be red because inline > internal > external -->
+</body>
+</html>

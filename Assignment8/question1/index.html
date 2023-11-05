@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .square {
+            height: 50px;
+            width: 50px;
+            background-color: aqua;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div style="height: 130px; width: 130px; border: 1px solid black;position: relative; left: 140px;top: 140px;">
+        <div style="height: 50px; width: 50px; background-color: aqua; position: absolute; left: 0; top: 0;"></div>
+        <div style="height: 50px; width: 50px; background-color: aqua; position: absolute; right: 0; top: 0;"></div>
+        <div style="height: 50px; width: 50px; background-color: aqua; position: absolute; left: 0; bottom: 0;"></div>
+        <div style="height: 50px; width: 50px; background-color: aqua; position: absolute; right: 0; bottom: 0;"></div>
+        <div class="square"></div>
+    </div>
+</body>
+</html>

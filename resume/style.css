@@ -1,0 +1,128 @@
+body{
+    padding: 0;
+    margin: 0;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+.container{
+    height: 1000px;
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+}
+.left{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.left1{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(93, 93, 245);
+}
+.left2{
+    height: 20%;
+    width: 100%;
+    background-color: black;
+}
+.left3{
+    height: 37%;
+    width: 100%;
+    background-color: black;
+}
+.left4{
+    height: 18%;
+    width: 100%;
+    background-color: black;
+}
+.right1{
+    height: 15%;
+    width: 100%;
+}
+.right2{
+    height: 32%;
+    width: 100%;
+}
+.right3{
+    height: 30%;
+    width: 100%;
+}
+.right4{
+    height: 23%;
+    width: 100%;
+}
+.image{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.image img{
+    height: 80%;
+    width: 40%;
+    border-radius: 100%;
+}
+.name{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+.name p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 23px;
+}
+.title{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    letter-spacing: 3px;
+}
+.title p{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.socials{
+    display: flex;
+    height: 15%;
+    width: 100%;
+}
+.github{
+    height: 100%;
+    width: 50%;
+}
+.linkedin{
+    height: 100%;
+    width: 50%;
+}
+.github a{
+    margin-left: 30px;
+    color: white;
+    letter-spacing: 4px;
+}
+a{
+    text-decoration: none;
+}
+.linkedin a {
+    margin-left: 30px;
+    color: white;
+    letter-spacing: 3px;
+}

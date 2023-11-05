@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid rgb(35, 37, 142);
+            text-align: center;
+            text-decoration-color: aqua;
+            text-decoration-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conference Schedule</h1>
+    <table style="width: 100%;height: 400px;">
+        <tr>
+            <th colspan="2">Time</th>
+            <th colspan="2">Room1</th>
+            <th>Room2</th>
+            <th>Room 3</th>
+            <th>Room 4</th>
+        </tr>
+        <tr>
+            <td rowspan="3" colspan="2">9:00 AM - 10:00 AM</td>
+            <td rowspan="2" colspan="2">Keynote</td>
+            <td>Session A</td>
+            <td>Session B</td>
+            <td rowspan="3">Session c</td>
+        </tr>
+        <tr>
+            <td>Session D</td>
+            <td>Session E</td>
+        </tr>
+        <tr>
+            <td colspan="2">10:30AM - 11:30AM</td>
+            <td colspan="2">Session F</td>
+        </tr>
+        <tr>
+            <td colspan="2">12:00PM - 1:00AM</td>
+            <td colspan="5">Lunch Break</td>
+        </tr>
+        <tr>
+            <td colspan="3" rowspan="2">1:00AM - 2:00PM</td>
+            <td>Session G</td>
+            <td rowspan="2">Session H</td>
+            <td>Session L</td>
+            <td>Session j</td>
+        </tr>
+        <tr>
+            <td>Session k</td>
+            <td>ession L</td>
+            <td>Session M</td>
+        </tr>
+    </table>
+</body>
+</html>

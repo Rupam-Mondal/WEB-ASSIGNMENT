@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{
+            width: 100vw;
+            height: 100px;
+            background-color: black;
+            display: flex;
+        }
+        .box{
+            height: 100%;
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        /* if the view port size is less than 768px then then the behaviour will change*/
+        @media(max-width:768px){
+            .navbar{
+                height: 50vh;
+                width: 100vw;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: grey;
+            }
+            .box{
+                height: 20%;
+                width: 100vh;
+            }
+            p{
+                font-size: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="box">
+            <p>Home</p>
+        </div>
+        <div class="box">
+            <p>About</p>
+        </div>
+        <div class="box">
+            <p>Service</p>
+        </div>
+        <div class="box">
+            <p>Portfolio</p>
+        </div>
+        <div class="box">
+            <p>Contact</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,2 @@
+grid-auto-rows: It sets the size of the rows in the grid container
+grid-auto:columns: It sets the size of the columns in the grid container.

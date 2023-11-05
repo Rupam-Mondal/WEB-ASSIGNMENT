@@ -1,0 +1,5 @@
+z-index:- This css determines stacking order of element elements in the web page.Higher z-index value
+          displays element at top and lower at the end.
+
+          If you see my code i made all div to form a stack like structure when i will increase z-index
+          of each div it will be on top accordingly.

@@ -1,0 +1,5 @@
+Github - It is a web based platform for version control.
+        We can create repository where we can push our code. Also we can make project
+        together. We can contribute in many open source project also.
+        
+Alternative of github - gitLab , bitBucket , GitKraken

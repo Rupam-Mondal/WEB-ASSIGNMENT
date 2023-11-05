@@ -1,0 +1,33 @@
+a{
+    color: red;
+}
+nav > h2{
+    background-color: aqua;
+}
+nav>h2::before {
+    content: "Website";
+}
+div+p{
+    color: red;
+}
+a[href]{
+    color: red;
+    text-decoration: none;
+}
+a[class="active"]{
+    color: black;
+    text-decoration: underline;
+}
+a[target="-self"]{
+    background-color: blanchedalmond;
+}
+div+p+p+p::after{
+    content: '...';
+}
+div+p+p::first-letter{
+    color: red;
+    font-size: 30px;
+}
+ul li::marker{
+    color: red;
+}

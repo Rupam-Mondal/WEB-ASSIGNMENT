@@ -1,0 +1,4 @@
+2.Purpose of HTML
+HTML helps to give the structure of our web page. It is like the bricks of a house.
+2.1 How to use comments in HTML?
+ans- if we select a html element and type crtl+/ then the whole element will be commented. That particular line will not not be rendered

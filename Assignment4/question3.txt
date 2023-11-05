@@ -1,0 +1,8 @@
+Accessibility:-
+1.context web developers:- It means that web developers need to make a web site so that all type of user can use their web site with a great experience
+
+2.Why Is It Essential to Create Accessible Websites? :- It is important for user experience.Also it is a good practice for SEO. This affects our web site rank also.
+
+3.How Does Accessibility Benefit Different User Groups?
+:- All types of user of disabilities like - hearing problem user , visual problem users , even user is unable to move cursor they can tap tab or any other key. These types of web site helps older people also.
+	

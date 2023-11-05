@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            height: 100vh;
+            width: 100vw;
+            background-image: url("./assets/background-image.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .nav {
+            height: 10%;
+            width: 100%;
+            display: flex;
+            gap: 2%;
+        }
+
+        .navchild {
+            height: 100%;
+            width: 20%;
+            text-align: center;
+        }
+
+        .navmid {
+            width: 60%;
+            display: flex;
+        }
+
+        .navlast {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4%;
+        }
+
+        .navbutton {
+            background-color: rgb(204, 76, 112);
+        }
+
+        .navlast button:hover {
+            background-color: rgb(212, 18, 77);
+            transform: scale(1.1);
+            font-size: 1rem;
+        }
+
+        .navlast img:hover {
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+
+        .navmidchild {
+            height: 100%;
+            width: 16.6%;
+            padding: auto;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            display: inline-block;
+            padding-top: 20%;
+        }
+
+        .navmidchild:hover {
+            box-sizing: border-box;
+            border-bottom: 3px solid rgb(204, 76, 112);
+            cursor: pointer;
+        }
+
+        .body {
+            display: flex;
+            height: 90%;
+            width: 100vw;
+
+        }
+
+        .firstbodychild {
+            height: 100%;
+            width: 45vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .secondbodychild {
+            height: 100%;
+            width: 55vw;
+            background-image: url("./assets/hero-image.png");
+            background-size: cover;
+        }
+
+        .dream1 {
+            font-size: 5rem;
+        }
+
+        .dream2 {
+            font-size: 1.5rem;
+            margin-top: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="navchild">
+                <img src="./assets/website-logo.png" alt="" style="cursor: pointer; padding: 2%;">
+            </div>
+            <div class="navchild navmid">
+                <div class="navmidchild"><a href="">RETAIL</a></div>
+                <div class="navmidchild"><a href="">SME</a></div>
+                <div class="navmidchild"><a href="">CORPORATE</a></div>
+                <div class="navmidchild"><a href="">ABOUT US</a></div>
+                <div class="navmidchild"><a href="">COVID 19</a></div>
+                <div class="navmidchild"><a href="">CAMPAINGNS</a></div>
+            </div>
+            <div class="navchild navlast">
+                <img src="./assets/search-icon.png" alt="">
+                <button
+                    style="margin: 0; height: 50%; border-radius: 10px; width: 50%; color: white; border: none; cursor: pointer; font-size: 1rem;"
+                    class="navbutton">Browse</button>
+            </div>
+        </div>
+        <div class="body">
+            <div class="bodychild firstbodychild">
+                <div style=" height: 50%; width: 100%;">
+                    <p style="margin-right:0; margin-left: 13%;" class="dream1"><b>Chase Your Dream With us</b></p>
+                </div>
+                <div style=" height: 10%; width: 100%;">
+                    <p style="margin-right:13%; margin-left: 13%;" class="dream2">The harder you work for something, the
+                        greater you'll feel when you achieve it.</p>
+                </div>
+                <div style=" height: 10%; width: 100%; display: flex;" class="buttons">
+                    <div style="margin-left: 13%; height: 100%; width: 25%;"><button
+                            style="margin-left: 0; height: 30px; border-radius: 5px; background-color: rgb(235, 31, 89); border: none; color: white; padding: 5px; cursor: pointer; margin-bottom: 6%;">APPLY
+                            ONLINE</button></div>
+                    <div style="height: 100%; width: 42%;"><button
+                            style="margin-left: 0; height: 30px; border-radius: 5px; background-color: white; border: 0.7px solid rgb(235, 31, 89); color: rgb(235, 31, 89); cursor: pointer; margin-bottom: 6%;">LOAN
+                            CALCULATE</button></div>
+                </div>
+                <div style=" height: 25%; width: 100%;">
+                    <a href="" style="position: relative; left: 13%; bottom: 60%; font-size: large;"><img
+                            src="./assets/phone.png" alt=""> 1659 | </a>
+                    <a href="" style="position: relative; left: 13%; bottom: 60%;"><img src="./assets/facebook.png" alt=""></a>
+                    <a href="" style="position: relative; left: 13%; bottom: 60%;"><img src="./assets/youtube.png" alt=""></a>
+                    <a href="" style="position: relative; left: 13%; bottom: 60%;"><img src="./assets/linkedin.png" alt=""></a>
+                    <a href="" style="position: relative; left: 13%; bottom: 60%;"><img src="./assets/instagram.png" alt=""></a>
+                </div>
+            </div>
+            <div class="bodychild secondbodychild">
+                <div style="position: relative; left: 8%; height: 40px; width: 120px; background-color: rgb(255, 255, 255); border-radius: 40px; top: 3%; cursor: pointer; display: flex; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                    <img src="./assets/car.png" alt="">
+                    <p style="margin-top: 10px;">Car Loans</p>
+                </div>
+                <div
+                    style="position: relative; left: 70%; height: 40px; border-radius: 40px; background-color: white; border: none; width: 140px; top: 20%; cursor: pointer; text-align: center; display: flex; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                    <img src="./assets/House.png" alt="" style="height: 30px;">
+                    <p style="margin-top: 10px;">Home Loans</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

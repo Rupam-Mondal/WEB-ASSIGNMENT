@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('https://th.bing.com/th/id/OIP.p5VDsjUYoCkIu1BBuG2OrwHaFj?pid=ImgDet&rs=1');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .form--back{
+            background-color: rgba(255 , 255 , 255 , 0.5);
+            /* if we write rgba the then we can manupulaten opacity of the form it varies from 0 to 1. 1 stands for fully visible and o stands for fully invisible */
+            width: 400px;
+            height: 500px;
+        }
+        input{
+            border: 1px solid rgb(238, 8, 47);
+            background-color: rgb(250, 224, 228);
+        }
+    </style>
+</head>
+<body>
+    <div class="form--back">
+        <ul>
+            <li><label for="">Enter your email</label></li>
+            <input type="email" name="" id="" placeholder="Enter email" required>
+            <br>
+            <br>
+            <li><label for="password">Enter password</label></li>
+            <input type="password" name="" id="" placeholder="Enter password" minlength="6" required>
+            <br>
+            <br>
+            <li><label for="state">Enter your state</label></li>
+            <input type="state" name="" id="" placeholder="Enter your state" required>
+            <br>
+            <br>
+            <li><label for="sex">Sex :</label></li>
+            <label for=""><input type="radio" name="gender" id="">Male</label>
+            <label for=""><input type="radio" name="gender" id="">Female</label>
+            <br>
+            <br>
+            <li><label for="file">Upload your id</label></li>
+            <input type="file" name="" id="" required>
+            <br>
+            <br>
+            <input type="submit">
+        </ul>
+    </div>
+</body>
+</html>

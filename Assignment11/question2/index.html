@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+        }
+        .box{
+            border: 1px solid black;
+            height: 100%;
+            width: 29%;
+        }
+        /* If the view port size is in between 800px and 500px the there will be only two because flex-wrap property 
+        and less that 500px*/
+        @media(max-width : 800px) and (min-width: 500px){
+            .container{
+                flex-wrap: wrap;
+            }
+            .box{
+                height: 100%;
+                width: 45%;
+            }
+        }
+        @media(max-width: 500px){
+            .container{
+                flex-wrap: wrap;
+            }
+            .box{
+                height: 100%;
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="https://fastly.picsum.photos/id/330/200/300.jpg?hmac=OE_HfmA_n_pZkD12G7SLDyB8rBchemKj6Lcn1y_8Msc" alt="" style="height: 100%; width: 100%;">
+        </div>
+        <div class="box">
+            <img src="https://fastly.picsum.photos/id/330/200/300.jpg?hmac=OE_HfmA_n_pZkD12G7SLDyB8rBchemKj6Lcn1y_8Msc" alt=""
+                style="height: 100%; width: 100%;">
+        </div>
+        <div class="box">
+            <img src="https://fastly.picsum.photos/id/330/200/300.jpg?hmac=OE_HfmA_n_pZkD12G7SLDyB8rBchemKj6Lcn1y_8Msc" alt=""
+                style="height: 100%; width: 100%;">
+        </div>
+    </div>
+</body>
+</html>

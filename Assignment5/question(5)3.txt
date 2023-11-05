@@ -1,0 +1,7 @@
+benifits of using meta tag:-
+
+1.SEO optimization:- proper meta tag helps the search engine to understand what the content of the web page.
+
+2.user experience:- meta tag gives user information about the web page that's why it increases the user experience
+
+3.Branding:-meta title appears at the search tab of the web site. This is a also technique of branding

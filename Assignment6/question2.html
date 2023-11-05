@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: yellow;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            background-color: aliceblue;
+            height: 600px;
+            width: 400px;
+        }
+        .container__heading{
+            color: blue;
+        }
+        .container__title{
+            color: blue;
+        }
+        .container__image{
+            border-radius: 50%;
+        }
+        .container__content{
+            color: blue;
+        }
+        .button{
+            text-align: center;
+            color: aqua;
+        }
+        .button--highlighted{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <!-- container is main block ,  container__heading , container__title ,container__content, container__image are block elements inside this block there is a another block named button and button--highlighted is a modifier-->
+    <!-- container__heading name because it contains the heading and container__title , because it contains the title ,container__content , name because it contains the content of the box. container__image contains the image and button is separate block button--highlighted is a modifier -->
+    <div class="container">
+        <h1 class="container__heading">Lorem ipsum dolor sit amet.</h1>
+        <h2 class="container__title">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, fugit!
+        </h2>
+        <p class="container__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, praesentium.</p>
+        <img src="https://th.bing.com/th?id=OIP.1uGxdGPIrp6h9xJMhBUMTQHaDt&w=349&h=174&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="" class="container__image">
+        <button class="button button--highlighted">
+            click me
+        </button>
+    </div>
+</body>
+</html>

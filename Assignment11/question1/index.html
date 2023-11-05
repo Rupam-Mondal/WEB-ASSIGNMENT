@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            height: 300px;
+            width: 100%;
+            background-color: #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* If the view port size is less that 600px then background color will be blue */
+        @media(max-width: 600px){
+            .header{
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <div class="header">
+        <h1 style="display: inline; font-size: 100px;">Responsive Header</h1>
+    </div>
+    <p style="font-size: 50px;">Main content</p>
+    <p style="font-size: 50px;">Footer</p>
+</body>
+</html>

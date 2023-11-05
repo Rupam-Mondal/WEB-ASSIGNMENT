@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    :root {
+        --grid-bg-color: rgb(245, 205, 153);
+    }
+
+    .container {
+        height: 90vh;
+        display: grid;
+        grid-template-areas:
+            'HEAD HEAD HEAD HEAD RIGHT RIGHT'
+            'HEAD HEAD HEAD HEAD RIGHT RIGHT'
+            'LEFT LEFT MID MID RIGHT RIGHT'
+            'LEFT LEFT MID MID RIGHT RIGHT'
+        ;
+        justify-items: end;
+        gap: 60px;
+        margin: 50px;
+    }
+
+    .head {
+        background-color: var(--grid-bg-color);
+        grid-area: HEAD;
+        border-radius: 55px;
+    }
+
+    .right {
+        background-color: var(--grid-bg-color);
+        grid-area: RIGHT;
+        border-radius: 55px;
+        justify-self: left;
+    }
+
+    .left {
+        background-color: var(--grid-bg-color);
+        grid-area: LEFT;
+        border-radius: 55px;
+    }
+
+    .mid {
+        background-color: var(--grid-bg-color);
+        grid-area: MID;
+        border-radius: 55px;
+    }
+
+    .container div {
+        text-align: center;
+        color: black;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <p style="font-size: 150px; margin: 0;">A</p>
+        </div>
+        <div class="right">
+            <p style="font-size: 150px; margin: 0;">B</p>
+        </div>
+        <div class="left">
+            <p style="font-size: 150px; margin: 0;">C</p>
+        </div>
+        <div class="mid">
+            <p style="font-size: 150px; margin: 0;">D</p>
+        </div>
+    </div>
+</body>
+
+</html>

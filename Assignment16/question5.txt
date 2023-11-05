@@ -1,0 +1,2 @@
+First we have to clone the repository to our local machine the make changes and push it back with a message that what
+i have changed if the manager aproves then your code will be merged in the real repository.

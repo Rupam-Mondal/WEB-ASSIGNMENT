@@ -1,0 +1,4 @@
+i.Absolute positioning:- Absolute positioning positions an element relative to its closest non 
+                         static ancester or the viewport.
+ii.Relative positioning:- Relative positioning position an element to its normal position in
+                          the document flow.

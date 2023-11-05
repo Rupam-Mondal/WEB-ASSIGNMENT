@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+        .container{
+            background-color: #ccc;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+        }
+        .box1{
+            height: 100%;
+            width: 10%;
+            background-color: black;
+        }
+        .mid{
+            height: 100%;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+        }
+        .box2{
+            height: 100%;
+            width: 10%;
+            background-color: black;
+        }
+        /* if view port size is less that 518 px then flex direction will be column and box4 will go at bottom */
+        @media (max-width: 518px){
+            .container{
+                flex-direction: column;
+            }
+            .box1{
+                height: 15%;
+                width: 100vw;
+            }
+            .mid{
+                height: 30%;
+                width: 100vw;
+            }
+            .mid div{
+                height: 15%;
+                width: 100%;
+            }
+            .box2{
+                height: 15%;
+                width: 100vw;
+                margin-top: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1" style="text-align: center;"><p>Box1</p></div>
+        <div class="mid">
+            <div style="height: 50%; width: 100%; background-color: green; text-align: center;"><p>Box2</p></div>
+            <div style="height: 50%; width: 100%; background-color: orange; text-align: center;"><p>Box3</p></div>
+        </div>
+        <div class="box2" style="text-align: center;"><p>Box4</p></div>
+    </div>
+</body>
+</html>

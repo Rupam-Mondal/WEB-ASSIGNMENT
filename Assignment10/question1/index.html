@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            height: 90vh;
+            display: grid;
+            grid-template-areas:
+            'HEAD HEAD HEAD HEAD RIGHTTOP RIGHTTOP' 
+            'HEAD HEAD HEAD HEAD RIGHTTOP RIGHTTOP'
+            'LEFT LEFT MIDTOP MIDTOP RIGHTDOWN RIGHTDOWN'
+            'LEFT LEFT MIDTOP MIDTOP RIGHTDOWN RIGHTDOWN'
+            'LEFT LEFT MIDDOWN MIDDOWN RIGHTDOWN RIGHTDOWN'
+            'LEFT LEFT MIDDOWN MIDDOWN RIGHTDOWN RIGHTDOWN'
+            ;
+            gap: 50px;
+            margin-top: 40px;
+        }
+        .item1{
+            grid-area: HEAD;
+        }
+        .item2{
+            grid-area: LEFT;
+        }
+        .item3{
+            grid-area: MIDDOWN;
+        }
+        .item4{
+            grid-area: MIDTOP;
+        }
+        .item5{
+            grid-area: RIGHTDOWN;
+        }
+        .item6{
+            grid-area: RIGHTTOP;
+        }
+        img{
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">
+            <img src="grid1.png" alt="" style="margin: 0; width: 100%; height: 100%;">
+        </div>
+        <div class="item2">
+            <img src="grid3.png" alt="" style="height: 100%;width: 100%;">
+        </div>
+        <div class="item3">
+            <img src="grid5.png" alt="" style="height: 100%;width: 100%;">
+        </div>
+        <div class="item4">
+            <img src="grid4.png" alt="" style="height: 100%; width: 100%;">
+        </div>
+        <div class="item5">
+            <img src="grid6.png" alt="" style="height: 100%; width: 100%;">
+        </div>
+        <div class="item6">
+            <img src="grid2.png" alt="" style="width: 100%; height: 100%;">
+        </div>
+    </div>
+</body>
+</html>

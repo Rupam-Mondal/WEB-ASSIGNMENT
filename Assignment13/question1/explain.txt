@@ -1,0 +1,2 @@
+purpose of using var() function:- we can define our property many times. we can define colors , background-color , other text property
+and we can reuse many times whereever we want.It reduces number of lines in a code.If we have to change color, we do not need to change everywhere.

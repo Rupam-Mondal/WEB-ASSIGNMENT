@@ -1,0 +1,3 @@
+.gitignore is very important in version control system. In this file we can include those temporary
+files and this will be affected by git commands. So if we create a temporary file but do not wanna
+commit , push then we can use .gitignore

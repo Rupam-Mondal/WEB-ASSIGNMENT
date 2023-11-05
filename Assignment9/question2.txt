@@ -1,0 +1,8 @@
+1.Justify-content:- This is a css property . It is used to determine the position of items along the main axis of the flex box.
+2.Align-items:- This css property is used to align the items along the cross axis of the flex box.
+3.gap:-This css property is used to give gap between flex items.
+4.flex-direction:- It helps web developer to decide whether items should be placed horizontally or vertically
+                    We can change main axis and cross axix through this property.
+5.flex-wrap:- This property determines that whether some contents should be wraped and made a new line
+                or not. We can determine this. If we write "Wrap" then it will create a new line(If there is a space issue)
+                and "nowrap" will not create any new line.

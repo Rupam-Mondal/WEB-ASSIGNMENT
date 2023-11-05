@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            transform-style: preserve-3d;
+            transform: rotateX(20deg) rotateY(30deg);
+        }
+        .box{
+            background-color: rgba(21, 56, 255, 0.6);
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            
+        }
+        .front{
+            transform: translateZ(100px);
+        }
+        .back{
+            transform: rotate(180deg) translateZ(-100px);
+        }
+        .left{
+            transform: rotateY(90deg) translateZ(-100px);
+        }
+        .right{
+            transform: rotateY(90deg) translateZ(100px);;
+        }
+        .top{
+            transform: rotateX(90deg) translateZ(100px);
+        }
+        .bottom{
+            transform: rotateX(-90deg) translateZ(100px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box front">Front</div>
+        <div class="box back">Back</div>
+        <div class="box left">Left</div>
+        <div class="box right">Right</div>
+        <div class="box top">Top</div>
+        <div class="box bottom">Bottom</div>
+    </div>
+</body>
+</html>

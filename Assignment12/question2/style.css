@@ -1,0 +1,15 @@
+ul li a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul>li {
+    display: inline;
+}
+
+ul li+li a {
+    margin: 70px;
+}

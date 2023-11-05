@@ -1,0 +1,11 @@
+Features of HTML5:-
+
+1.Semantics tags- <header> , <main> , <footer> , <article> these tags help to enhance the readability and also makes easier to brows for a search engine.
+
+2.SVG support- HTML5 gives us the functionality to use svg nowadays.
+
+3.audio and video tag- we can use audio and video tag in out html5.
+
+4.APIs:- APIs are also included in HTML5 that gives more enhancement to developers.
+
+5.Drag and drops- HTML5 supports drag and drop. It is very usefull when user is trying to upload some file

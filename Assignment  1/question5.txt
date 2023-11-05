@@ -1,0 +1,2 @@
+5)
+Doctype is declared because it specifies that this html is being used as a document and helps the browser to render the content

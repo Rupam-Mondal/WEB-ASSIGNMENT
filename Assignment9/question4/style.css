@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(217, 237, 243);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.box {
+    box-shadow: 0.5px 1px 1px 0.5px rgba(187, 185, 185, 0.854);
+    border-radius: 12px;
+    height: 400px;
+    width: 25%;
+}
+
+.box1 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 {
+    background-color: rgb(2, 2, 66);
+    display: flex;
+    flex-direction: column;
+}
+
+.box3 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 .heading {
+    color: rgb(2, 2, 66);
+    font-size: 40px;
+
+}
+
+.box2 .heading {
+    color: rgb(2, 2, 66);
+    font-size: 40px;
+
+}
+.box3 .heading {
+    color: rgb(2, 2, 66);
+    font-size: 40px;
+
+}
+
+.mark {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(2, 2, 66);
+    width: 23px;
+    height: 23px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 18px;
+    flex-direction: row;
+}
+
+.mark1 {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    width: 23px;
+    height: 23px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 18px;
+    flex-direction: row;
+}
+
+.box1 p {
+    position: relative;
+    left: 18px;
+}
+
+.box2 p {
+    position: relative;
+    left: 18px;
+}
+.box3 p {
+    position: relative;
+    left: 18px;
+}
+
+.chart {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.button1 {
+    display: flex;
+    justify-content: center;
+}
+
+#button1 {
+    display: inline-block;
+    height: 35px;
+    border-radius: 50px;
+    width: 150px;
+    letter-spacing: 1px;
+    margin-top: 12px;
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+}
+
+#button2 {
+    display: inline-block;
+    height: 35px;
+    border-radius: 50px;
+    width: 150px;
+    letter-spacing: 1px;
+    margin-top: 12px;
+}
