@@ -1,0 +1,3 @@
+We can use the comma operator when we want to include multiple expressions in a location that requires a single expression.
+This comma operator evaluates operands from left to right and returns the value of last
+operands
