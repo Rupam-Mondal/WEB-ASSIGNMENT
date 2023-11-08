@@ -5,4 +5,4 @@
          if we use typeof operator to know null it return object
 5.Number :- It represents both float and integer values
 6.Symbol :- Symbol is a built-in object whose constructor returns a symbol primitive — also called a Symbol value or just a Symbol — that's guaranteed to be unique.
-Bigint :- This is a numeric data type that can represents integers in the arbitary precision format
+7.Bigint :- This is a numeric data type that can represents integers in the arbitary precision format
