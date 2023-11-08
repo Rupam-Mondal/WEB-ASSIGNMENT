@@ -1,0 +1,4 @@
+HTML :- This is markup language. It helps to give structure to the web page. It provides
+        the basic structure of web page , including headings , paragraphs
+Javascript :- This is a programming language used to enhancing the interactivity and functionallity
+        of web pages.
