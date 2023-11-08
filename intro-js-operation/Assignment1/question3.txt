@@ -1,0 +1,6 @@
+unary operator :-Those operators only works on a single operand are only known as unary operator
+                ex:- ++ , -- etc
+Binary operator :- Those operators only works on a double operand are only known as binary operator
+                ex :- + , - etc
+ternary operator :- Basically it is the shorter version of if else statement
+                ex :- age > 18 ? "Allowed" : "Not allowed"
