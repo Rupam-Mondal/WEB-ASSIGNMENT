@@ -1,0 +1,5 @@
+Operator is very essential part for a programming language. There are lots of operator present
+Arithmatic operator , bitwise operator etc
+If there is any need to add , multply , divide or any math operation then we use arithmatic operator
+in case if we need to write a = 3 in this case = is a assignment operator
+or > < == all are very essential in if else statemnet these are also comaparision operator
