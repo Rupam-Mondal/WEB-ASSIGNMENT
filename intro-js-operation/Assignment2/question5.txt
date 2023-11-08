@@ -1,0 +1,7 @@
+comment is very important in programming languages
+we can use comments to identify aparticular part of our code later
+1.single line :- If we wanna commentout a single line the we can use // to commment that line
+that line will not be executed\
+
+2.Multipleline :- If we wanna comment out multiple lines then we can use /* */ to comment that
+piece of code
