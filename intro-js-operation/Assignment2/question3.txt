@@ -1,0 +1,8 @@
+1.String :- This type of data type represents sequence of letters
+2.Boolean :- This type of data type represents True or false
+3.Undefined :-It means there is no value. Value is undefined
+4.Null :- In Javascript null is marked as one of the primitive values , because its behaviour is seemingly primitive
+         if we use typeof operator to know null it return object
+5.Number :- It represents both float and integer values
+6.Symbol :- Symbol is a built-in object whose constructor returns a symbol primitive — also called a Symbol value or just a Symbol — that's guaranteed to be unique.
+Bigint :- This is a numeric data type that can represents integers in the arbitary precision format
