@@ -1,0 +1,4 @@
+precedence :- precedence means priority of execution of operators. If a operator has more precedence
+            than other one then it will be executed like. * have more precedence that +.
+Associativity :- It determines in which order the operartion should be executed if we use =
+                the it follows right to left otherwise with any operator it goes from left to right
