@@ -25,4 +25,76 @@ body{
     background-image: url("HeroImage.png");
     background-size: cover;
     background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.search-bar{
+    background-color: white;
+    width: 73%;
+    height: 110px;
+    border-radius: 32px;
+    display: flex;
+    position: relative;
+    font-size: 24px;
+    font-weight: 100;
+    color: #4a4a4a;
+}
+.search-bar div{
+    box-sizing: border-box;
+}
+
+.both-side-arrow{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: 250px;
+    top: 35px;
+    border-radius: 100%;
+    border: 0.5px solid #4a4a4a;
+    z-index: 1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.from-box{
+    height: 100%;
+    width: 27%;
+    display: flex;
+    align-items: center;
+    gap: 4%;
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
+}
+.To-box{
+    height: 100%;
+    width: 27%;
+    display: flex;
+    align-items: center;
+    gap: 4%;
+    border-left: 0.5px solid #6c6868;
+    border-right: 0.5px solid #6c6868;
+}
+.Date-box{
+    height: 100%;
+    width: 19%;
+    display: flex;
+    align-items: center;
+    gap: 6%;
+}
+.Search-box{
+    height: 100%;
+    width: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(216, 78, 85);
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
 }
