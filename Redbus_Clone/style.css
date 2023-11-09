@@ -199,3 +199,20 @@ body{
     width: 34.5rem;
     margin: 0px;
 }
+.Refer-section{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.refer{
+    height: 80%;
+    width: 85%;
+    border-radius: 50px;
+    display: flex;
+    background-image: url(https://s1.rdbuz.com/web/images/homeV2/appinstall/appInstallbg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
