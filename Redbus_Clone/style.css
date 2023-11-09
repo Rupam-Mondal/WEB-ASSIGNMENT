@@ -103,7 +103,7 @@ body{
     border-bottom-right-radius: 32px;
 }
 .offers-box{
-    width: 80%;
+    width: 87%;
     height: 300px;
     background-color: white;
     border-radius: 50px;
@@ -114,10 +114,11 @@ body{
     box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 25px;
     font-weight: 400;
     font-size: 32px;
-    line-height: 39px;
     color: #4a4a4a;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    overflow-x: hidden;
 }
 .offers-box a{
     color: rgb(16, 52, 217);
@@ -131,4 +132,19 @@ body{
     margin-top: 2%;
     height: 35px;
     border-radius: 30px;
+}
+.cards{
+    display: flex;
+    gap:2%;
+    margin-bottom: 3%;
+}
+.card1{
+    height: 98%;
+    width: 27%;
+    border-radius: 10px;
+    margin-top: 2%;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(71.04deg, rgb(12, 57, 139) -6.92%, rgb(62, 118, 216) 109.43%);
+    display: flex;
+
 }
