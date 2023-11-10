@@ -1,0 +1,92 @@
+.offer-section1{
+    width: 100%;
+    display: flex;
+    height: 30%;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+.offer-section1 p{
+    margin: 0;
+    margin-top: 3%;
+    margin-left: 7%;
+}
+.offer-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offers-box .offer-button {
+    color: rgb(16, 52, 217);
+    font-weight: 600;
+    border: 1px solid rgb(170, 170, 170);
+    padding: 10px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 4%;
+    margin-top: 2%;
+    height: 35px;
+    border-radius: 30px;
+}
+.offers-box {
+    width: 90%;
+    height: 310px;
+    background-color: white;
+    border-radius: 50px;
+    position: absolute;
+    top: 460px;
+    z-index: 10;
+    left: 100px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 25px;
+    font-weight: 400;
+    font-size: 32px;
+    color: #4a4a4a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cards {
+    width: 100%;
+    height: 68%;
+    display: flex;
+    gap: 2%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.card {
+    height: 98%;
+    width: 27%;
+    border-radius: 10px;
+    margin-top: 1%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-profile1{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1{
+    background-image: linear-gradient(71.04deg, rgb(12, 57, 139) -6.92%, rgb(62, 118, 216) 109.43%);
+}
+.card2{
+    background-image: linear-gradient(71.04deg, rgb(39, 57, 101) -6.92%, rgb(80, 210, 149) 109.43%);
+}
+.card3{
+    background-image: linear-gradient(71.04deg, rgb(72, 0, 4) -6.92%, rgb(216, 78, 85) 109.43%);
+}
+.card1-right-section{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 63%;
+    gap: 5%;
+}
