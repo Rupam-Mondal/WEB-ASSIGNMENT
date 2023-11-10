@@ -70,6 +70,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .from-box{
     height: 100%;
@@ -79,6 +80,7 @@ body{
     gap: 4%;
     border-top-left-radius: 32px;
     border-bottom-left-radius: 32px;
+    cursor: pointer;
 }
 .To-box{
     height: 100%;
@@ -88,6 +90,7 @@ body{
     gap: 4%;
     border-left: 0.5px solid #6c6868;
     border-right: 0.5px solid #6c6868;
+    cursor: pointer;
 }
 .Date-box{
     height: 100%;
@@ -95,6 +98,7 @@ body{
     display: flex;
     align-items: center;
     gap: 6%;
+    cursor: pointer;
 }
 .Search-box{
     height: 100%;
@@ -105,10 +109,11 @@ body{
     background: rgb(216, 78, 85);
     border-top-right-radius: 32px;
     border-bottom-right-radius: 32px;
+    cursor: pointer;
 }
 .offers-box{
     width: 90%;
-    height: 300px;
+    height: 310px;
     background-color: white;
     border-radius: 50px;
     position: absolute;
@@ -146,7 +151,7 @@ body{
     height: 98%;
     width: 27%;
     border-radius: 10px;
-    margin-top: 2%;
+    margin-top: 1%;
     color: rgb(255, 255, 255);
     background-image: linear-gradient(71.04deg, rgb(12, 57, 139) -6.92%, rgb(62, 118, 216) 109.43%);
     display: flex;
@@ -154,7 +159,7 @@ body{
 .sponser-box{
     width: 100%;
     height: 15%;
-    margin-top: 12rem;
+    margin-top: 14rem;
     text-align: center;
     cursor: pointer;
 }
