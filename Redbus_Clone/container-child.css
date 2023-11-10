@@ -1,0 +1,94 @@
+.container-child-heading{
+    margin-top: 3.5%;
+}
+.container-child {
+    width: 100vw;
+    height: 75%;
+    background-image: url("HeroImage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.both-side-arrow {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: 250px;
+    top: 35px;
+    border-radius: 100%;
+    border: 0.5px solid #4a4a4a;
+    z-index: 1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.from-box {
+    height: 100%;
+    width: 27%;
+    display: flex;
+    align-items: center;
+    gap: 4%;
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
+    cursor: pointer;
+}
+
+.To-box {
+    height: 100%;
+    width: 27%;
+    display: flex;
+    align-items: center;
+    gap: 4%;
+    border-left: 0.5px solid #6c6868;
+    border-right: 0.5px solid #6c6868;
+    cursor: pointer;
+}
+
+.Date-box {
+    height: 100%;
+    width: 19%;
+    display: flex;
+    align-items: center;
+    gap: 6%;
+    cursor: pointer;
+}
+
+.Search-box {
+    height: 100%;
+    width: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(216, 78, 85);
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    cursor: pointer;
+}
+.search-bar div {
+    box-sizing: border-box;
+}
+.from-box div{
+    margin-left: 8%;
+}
+.Date-box div{
+    margin-left: 6%;
+}
+.Search-box{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.To-box div{
+    margin-left: 10%;
+}
