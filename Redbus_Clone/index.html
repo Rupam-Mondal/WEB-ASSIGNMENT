@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online bus ticket booking</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
     <link rel="shortcut icon" href="https://st.redbus.in/web/images/layout/rb_vertical.svg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,30 +18,30 @@
 <body>
     <div class="main-container">
         <div class="navbar">
-            <div style="height: 100%; width: 15%;"><img src="https://st.redbus.in/Images/rdc/rdc-redbus-logo.svg" alt="" style="margin-top: 20px; position: relative;left: 30%; cursor: pointer;"></div>
-            <div style="height: 100%; background-color: white; width: 45%; display: flex;">
-                <div style="height: 100%; width: 20%; margin-left: 10%; display: flex; flex-direction: column; justify-content: center; align-items: center; cursor: pointer;">
+            <div class="navbar-image"><img src="https://st.redbus.in/Images/rdc/rdc-redbus-logo.svg" alt=""></div>
+            <div class="navbar-section1">
+                <div class="navbar-bus-ticket">
                     <img src="https://st.redbus.in/web/images/layout/rb_vertical.svg" alt="">
                     <p>Bus Tickets</p>
                 </div>
-                <div style="height: 100%; width: 20%; display: flex; flex-direction: column; justify-content: center; align-items: center; cursor: pointer;">
+                <div class="navbar-cer-rental">
                     <img src="https://st.redbus.in/web/images/layout/ryde_vertical.svg" alt="">
                     <p>Cab Rental</p>
                 </div>
-                <div style="height: 100%; width: 20%; display: flex; flex-direction: column; justify-content: center; align-items: center; cursor: pointer;">
+                <div class="train-ticket">
                     <img src="https://st.redbus.in/web/images/layout/rail_vertical.svg" alt="">
                     <p>Train Tickets</p>
                 </div>
             </div>
-            <div style="height: 100%; width: 40%; display: flex; justify-content: flex-end; gap: 5%;">
-                <div style="display: flex; height: 100%; width: 20%; justify-content: center; align-items: center; gap: 5%; cursor: pointer;"><i class="fa-solid fa-headphones fa-lg"></i> <p>Help</p></div>
-                <div style="display: flex; height: 100%; width: 20%; justify-content: center; align-items: center; gap: 5%; margin-right: 15%; cursor: pointer;" class="Account-menu"><i class="fa-regular fa-user fa-lg"></i><p>Account</p><i class="fa-solid fa-chevron-down fa-lg"></i>
+            <div class="navbar-section2">
+                <div class="Help-menu"><i class="fa-solid fa-headphones fa-lg"></i> <p>Help</p></div>
+                <div class="Account-menu"><i class="fa-regular fa-user fa-lg"></i><p>Account</p><i class="fa-solid fa-chevron-down fa-lg"></i>
                 </div>
                 <div class="drop-down">
-                    <div style="height: 23%; width:100%; margin-top: 6%; font-size:15px; display: flex; align-items: center;"><p style="margin: 0; color: #4a4a4a; margin-left: 8px;">Cancel Ticket</p></div>
-                    <div style="height: 23%; width:100%; font-size:15px; display: flex; align-items: center;"><p style="margin: 0; color: #4a4a4a; margin-left: 8px;">Show Ticket</p></div>
-                    <div style="height: 23%; width:100%; font-size:15px; display: flex; align-items: center;"><p style="margin: 0; color: #4a4a4a; margin-left: 8px;">Emal/SMS</p></div>
-                    <div style="height: 23%; width:100%; font-size:15px; display: flex; align-items: center;"><p style="margin: 0; color: #4a4a4a; margin-left: 8px;">Login/Sign UP</p></div>
+                    <div class="dropdown-sec1"><p>Cancel Ticket</p></div>
+                    <div class="dropdown-sec2"><p>Show Ticket</p></div>
+                    <div class="dropdown-sec2"><p>Emal/SMS</p></div>
+                    <div class="dropdown-sec2"><p>Login/Sign UP</p></div>
                 </div>
             </div>
         </div>
@@ -74,7 +75,7 @@
         <div class="offers-box">
             <div style="width: 100%; display: flex; height: 30%; justify-content: space-between; margin-bottom:0;">
                 <p style="margin: 0; margin-top: 3%; margin-left: 7%;">TRENDING OFFERS</p>
-                <a href="" style="display: flex; justify-content: center; align-items: center;">View All</a>
+                <a href="" style="display: flex; justify-content: center; align-items: center;" class="offer-button">View All</a>
             </div>
             <div style="width: 100%; height: 68%;" class="cards">
                 <div class="card1" style="margin-left: 4%;">

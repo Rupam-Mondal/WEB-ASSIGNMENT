@@ -247,29 +247,3 @@ body{
 .card1:hover{
     transform: scale(1.1);
 }
-.drop-down{
-    display: none;
-    height: 200px;
-    width: 160px;
-    background-color: white;
-    box-shadow: 10px 10px 10px rgba(220, 151, 151, 0.1);
-    padding-block: 7px;
-    border-radius: 20px;
-}
-.Account-menu:hover + .drop-down{
-    display: block;
-    position: absolute;
-    right: 3%;
-    top: 70px;
-}
-.drop-down:hover{
-    display: block;
-    position: absolute;
-    right: 3%;
-    top: 70px;
-}
-.drop-down div:hover{
-    background-color: #dacfcf;
-    border-radius: 5px;
-    cursor: pointer;
-}

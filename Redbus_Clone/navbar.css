@@ -1,0 +1,130 @@
+.navbar-image{
+    height: 100%;
+    width: 15%;
+}
+.navbar-section1{
+    height: 100%;
+    background-color: white;
+    width: 45%;
+    display: flex;
+}
+.navbar-image img{
+    margin-top: 20px;
+    position: relative;
+    left: 30%;
+    cursor: pointer;
+}
+.navbar-bus-ticket{
+    height: 100%;
+    width: 20%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.navbar-cer-rental{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.train-ticket{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.navbar-section2{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5%;
+}
+.Account-menu{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    margin-right: 15%;
+    cursor: pointer;
+}
+.Help-menu{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    cursor: pointer;
+}
+.drop-down {
+    display: none;
+    height: 200px;
+    width: 160px;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(220, 151, 151, 0.1);
+    padding-block: 7px;
+    border-radius: 20px;
+}
+
+.Account-menu:hover+.drop-down {
+    display: block;
+    position: absolute;
+    right: 3%;
+    top: 70px;
+    opacity: 1;
+    transition-delay: 2s;
+}
+
+.drop-down:hover {
+    display: block;
+    position: absolute;
+    right: 3%;
+    top: 70px;
+}
+
+.drop-down div:hover {
+    background-color: #dacfcf;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.offer-button {
+    transition: transform 0.5s ease;
+}
+
+.offer-button:hover {
+    background-color: lightblue;
+    transform: scale(1.2);
+}
+.dropdown-sec2{
+    height: 23%;
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.dropdown-sec1{
+    height: 23%;
+    width: 100%;
+    margin-top: 6%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.drop-down p{
+    margin: 0;
+    color: #4a4a4a;
+    margin-left: 8px;
+}
