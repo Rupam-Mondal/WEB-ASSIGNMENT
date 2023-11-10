@@ -146,6 +146,7 @@ body{
     display: flex;
     gap:2%;
     margin-bottom: 3%;
+    cursor: pointer;
 }
 .card1{
     height: 98%;
@@ -234,4 +235,8 @@ body{
     height: 200px;
     justify-content: center;
     margin-top: 50px;
+}
+.train:hover{
+    background-color: #cfc3c3;
+    border-radius: 10px;
 }
