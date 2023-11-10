@@ -127,7 +127,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow-x: hidden;
+    overflow-x: scroll;
 }
 .offers-box a{
     color: rgb(16, 52, 217);
@@ -156,6 +156,10 @@ body{
     color: rgb(255, 255, 255);
     background-image: linear-gradient(71.04deg, rgb(12, 57, 139) -6.92%, rgb(62, 118, 216) 109.43%);
     display: flex;
+    transition: transform 0.5s ease;
+}
+.card1:hover {
+    transform: scale(1.1);
 }
 .sponser-box{
     width: 100%;
@@ -239,4 +243,7 @@ body{
 .train:hover{
     background-color: #cfc3c3;
     border-radius: 10px;
+}
+.card1:hover{
+    transform: scale(1.1);
 }
