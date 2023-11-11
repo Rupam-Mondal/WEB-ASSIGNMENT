@@ -1,0 +1,47 @@
+.stats-card{
+    margin-left: 4%;
+    background-image: linear-gradient(to right, rgb(38, 72, 153), rgb(125, 70, 134));
+    height: 88%;
+    width: 27%;
+    border-radius: 10px;
+    margin-top: 1%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    transition: transform 0.5s ease;
+    min-width: 27%;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+.stats-card:hover{
+    transform: scale(1.1);
+}
+.stats-card-image{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stats-card-right{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 63%;
+    gap: 5%;
+}
+.stats-card-heading{
+    font-size: 25px;
+}
+.stats-card-heading p{
+    margin: 0;
+    margin-top: 13%;
+    font-weight: 600;
+    margin-right: 15%;
+}
+.stats-card-description{
+    font-size: 20px;
+}
+.stats-card-description p{
+    margin: 0;
+    padding: 0;
+}

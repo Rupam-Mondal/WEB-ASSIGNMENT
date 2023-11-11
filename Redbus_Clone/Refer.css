@@ -1,0 +1,95 @@
+.Refer-heading{
+    color: white;
+    font-size: 40px;
+    margin-left: 4%;
+    letter-spacing: 2px;
+}
+.Refer-body{
+    height: 80%;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    display: flex;
+}
+.Rating-box{
+    height: 100%;
+    width: 35%;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.specs-1{
+    margin: 0;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.specs-1 p{
+    margin-left: 10px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.specs-2{
+    display: flex;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+.specs-2 p{
+    margin: 0;
+    margin-left: 10px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.App-rating{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.play-store{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 40%;
+    margin-right: 0.5px solid #4a4a4a;
+}
+.App-store{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 45%;
+    border-left: 0.1px solid #4a4a4a;
+}
+.middle{
+    height: 100%;
+    width: 40%;
+    display: flex;
+}
+.middle-right{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+    margin-left: 50px;
+}
+.middle-left{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 30%;
+    justify-content: center;
+}
+.middle-left p{
+    font-size: 23px;
+    color: white;
+    font-weight: 700;
+}
+.middle-left p{
+    margin: 0;
+    font-size: 23px;
+    color: white;
+    font-weight: 700;
+    margin-top: 28px;
+}
