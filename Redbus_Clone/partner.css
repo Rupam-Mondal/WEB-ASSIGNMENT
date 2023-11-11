@@ -1,0 +1,71 @@
+.partner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    margin-top: 150px;
+}
+.partner-text{
+    font-size: 2.5rem;
+    color: #4a4a4a;
+    margin: 0;
+    margin-left: 110px;
+    letter-spacing: 2px;
+}
+.partner-section2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 50px;
+}
+.RTC{
+    font-size: 1.75rem;
+    color: #4a4a4a;
+    font-weight: 400;
+}
+.partner-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 95px;
+    border: 0.5px solid #4a4a4a;
+    border-radius: 14px;
+    color: #4a4a4a;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+.partner-button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.partner-section3{
+    display: flex;
+    gap: 3%;
+}
+.partner-image-section{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 12%;
+    cursor: pointer;
+}
+.partner-image-section img{
+    height: 100px;
+    width: 100px;
+}
+.partner-image-section div{
+    height: 22px;
+    width: 107px;
+    text-align: center;
+    margin-top: 20px;
+}
+.image1{
+    margin-left: 113px;
+}
+.image8{
+    margin-right: 113px;
+}
