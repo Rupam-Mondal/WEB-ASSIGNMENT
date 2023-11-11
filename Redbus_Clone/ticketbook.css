@@ -1,0 +1,113 @@
+.ticket-book {
+    width: 100vw;
+    height: 700px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket-section {
+    height: 90%;
+    width: 85%;
+    border-radius: 50px;
+    display: flex;
+}
+
+.card-element {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-element1 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url(https://s3.rdbuz.com/web/images/homeV2/AboutUs/aboutUsImg.svg);
+    background-repeat: no-repeat;
+}
+
+.card-element h2 {
+    font-weight: 400;
+    font-size: 2.9rem;
+    line-height: 3.75rem;
+    color: rgb(29, 29, 29);
+    width: 34.5rem;
+    margin: 0px;
+}
+
+.Descriptions{
+    height: 8%;
+    width: 60%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+}
+.imp-details{
+    font-size: 20px;
+    color: #4a4a4a;
+    margin-top: 40px;
+}
+.ticket-book-button{
+    height: 8%;
+    width: 60%;
+    background-color: rgb(216, 78, 85);
+    color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+}
+.Descriptions-details{
+    margin-left: 25px;
+    font-size: 20px;
+}
+.heading-buttons{
+    height: 10%;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+}
+.heading-button-1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid rgb(216, 78, 85);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.heading-button-2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.1px solid #4a4a4a;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.heading-button-2:hover {
+    background-color: #cfc3c3;
+    border-radius: 10px;
+}
+.button-1-content{
+    font-size: 18px;
+    color: rgb(216, 78, 85);
+    font-weight: 800;
+    margin-left: 15px;
+}
+.button-2-content{
+    font-size: 18px;
+    margin-left: 15px;
+    color: #4a4a4a;
+}
