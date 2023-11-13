@@ -86,7 +86,7 @@ body{
 
 
 .FREQ-asked-question{
-    height: 400px;
+    height: 600px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -124,4 +124,23 @@ body{
 .FREQ-section-2 div:hover{
     box-sizing: border-box;
     border-bottom: 2px solid #726f6f;
+}
+.FREQ-section-3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(600px - 160px);
+    justify-content: space-around;
+}
+.questions{
+    margin-left: 110px;
+    height: 70px;
+    width: 70%;
+    border: 0.5px solid #b2a6a6;
+    display: flex;
+    padding-inline: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
 }
