@@ -8,6 +8,7 @@
 .operator-section-1{
     display: flex;
     justify-content: space-between;
+    height: 30%;
 }
 .operator-text{
     margin: 0;
@@ -35,4 +36,16 @@
 .operator-button:hover {
     transform: scale(1.1);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.operator-section-2{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.operator-section-2 div{
+    font-size: 1.2rem;
+    color: #4a4a4a;
+    font-weight: 400;
+
 }
