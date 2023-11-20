@@ -1,0 +1,27 @@
+1.Arithmatic operator :- 
+    Addition (+) ex -> x + y
+    Substraction (-) ex -> x - y
+    Multiplication (*) ex -> x * y
+    Division (/) ex -> x / y
+    Modulus (%) ex -> x % y
+
+2.Comparison operator :-
+    > , < , >= , <= , != , == , === , !==
+
+3.Ternary operator :-
+    const ans = age > 18 ? "eligible" : "Not eligible";
+
+4.Logical operator :-
+    &&(and) , ||(or) , !(Not)
+
+5.Assignment operator :-
+    ex -> =
+
+6.Bitwise operator :-
+    & , | , ^
+
+7.Unary operator :-
+    ++(increment operator) , --(Decrement operator)
+
+8.String concatenication operator :-
+    Rupam + " " + Mondal
