@@ -1,0 +1,16 @@
+Tailwind setup :-
+
+1.in the folder create a two folder named src and dist
+	--inside src create input.css file and write
+		@tailwind base;
+		@tailwind components;
+		@tailwind utilities;
+	--inside dist create index.html
+2. After in terminal run
+	-- npx tailwindcss init(tailwind.config.js will be 	generated)
+	--> go to the file and in the content section add the 	address of file you want to add tailwind classes
+	ex-> content: ["./dist/index.html"],
+3. Then open terminal and write :-
+	npx tailwindcss -i ./src/input.css -o 
+	./dist/style.css --watch
+4.Then use link tag to add style.css in html file. Now start the        work.
