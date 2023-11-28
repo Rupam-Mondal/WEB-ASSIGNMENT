@@ -1,0 +1,15 @@
+conditional statements arew basicallly used to perform a particular section of a programming
+under some condition. That's why these are knowb as conditional statements
+
+syntax:-
+
+        if(condition){
+            body
+        }
+        else if(condition)
+        {
+            body
+        }
+        else{
+            body
+        }

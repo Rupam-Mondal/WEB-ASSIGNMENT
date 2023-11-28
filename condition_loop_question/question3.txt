@@ -18,6 +18,6 @@ there are multiple loops present but in class sir has told about only three loop
 3.do-while loop 
         ex:-
             do{
-
+                body
             }
-            while();
+            while(condition);
