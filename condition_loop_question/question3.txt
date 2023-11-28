@@ -1,0 +1,23 @@
+loops are very important in programming it helps us to any repeatative work
+without loop we have write that particular code multiple times so it is very important in 
+programming
+
+there are multiple loops present but in class sir has told about only three loops
+1.for loop  
+        ex :- for(let i = 0 ; i < n ; i++)
+              {
+                    console.log("Hello sir");
+              }
+2. while loop   
+        ex :-
+            while(condition)
+            {
+                body
+            }
+
+3.do-while loop 
+        ex:-
+            do{
+
+            }
+            while();
