@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="h-screen w-screen flex box-border">
-        <div class="h-full bg-sky-100 w-1/12 flex flex-col items-center gap-y-4">
+        <div class="h-full bg-sky-100 w-[8%] flex flex-col items-center gap-y-4">
             <div class="hover:bg-sky-300 w-12 h-12 flex justify-center items-center rounded-full cursor-pointer mt-1">
                 <i class="fa-solid fa-bars fa-lg"></i>
             </div>
@@ -40,7 +40,7 @@
                 <div class="flex justify-center items-center">Meet</div>
             </div>
         </div>
-        <div class="h-full w-3/12 bg-slate-100 flex flex-col">
+        <div class="h-full w-[25%] bg-slate-100 flex flex-col">
             <div class="h-14 w-full flex items-center">
                 <img src="logo_gmail_lockup_default_1x_r5.png" alt="" class="ml-3 cursor-pointer w-4/12">
             </div>
@@ -116,11 +116,36 @@
             </div>
         </div>
 
-        <div class="w-8/12 h-ful flex flex-col">
-            <div class="w-full h-20 bg-slate-100 flex items-center">
+        <div class="w-[67%] h-full flex flex-col sm:w-screen">
+            <div class="w-full h-[12%] bg-slate-100 flex items-center relative">
                 <input type="text" id="first_name"
-                    class="bg-sky-100 h-12 text-gray-900 text-sm rounded-lg  block w-7/12 p-2.5 px-2 focus:outline-none"
-                    placeholder="" required>
+                    class="bg-sky-100 ps-12 placeholder-gray-500 focus:bg-white focus:shadow-2xl h-12 text-gray-900 text-sm rounded-3xl  block w-7/12 p-1.8 px-2 focus:outline-none"
+                    placeholder="Search mail" required>
+
+                <div class="h-10 w-10 flex justify-center items-center absolute">
+                    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                </div>
+
+                <div class="h-10 w-10 flex justify-center items-center absolute left-[53%] hover:bg-sky-200 cursor-pointer hover:rounded-full">
+                    <i class="fa-solid fa-bars fa-lg"></i>
+                </div>
+
+                <div class="h-full w-5/12 flex justify-end gap-x-1 items-center">
+                    <div class="h-[55%] w-[10%] flex justify-center items-center hover:rounded-full hover:bg-slate-300 cursor-pointer">
+                        <i class="fa-regular fa-circle-question fa-lg"></i>
+                    </div>
+                    <div class="h-[55%] w-[10%] flex justify-center items-center hover:rounded-full hover:bg-slate-300 cursor-pointer">
+                        <i class="fa-solid fa-gear fa-lg"></i>
+                    </div>
+                    <div class="h-[55%] w-[10%] flex justify-center items-center hover:rounded-full hover:bg-slate-300 cursor-pointer">
+                        <i class="fa-solid fa-grip fa-lg"></i>
+                    </div>
+                    <div class="h-[55%] w-[10%] flex justify-center items-center mr-3 hover:rounded-full hover:bg-slate-300 cursor-pointer">
+                        <img src="https://lh3.googleusercontent.com/a/ACg8ocIeDnjZpZHvJZzyHq4a9BEAk8wrOJ3qwYVquN5AW6AHGFY=s288-c-no" alt="" class="w-[70%] h-[70%] rounded-full">
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </div>
