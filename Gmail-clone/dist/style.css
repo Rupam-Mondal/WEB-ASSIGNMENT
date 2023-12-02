@@ -542,8 +542,20 @@ video {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .left-\[53\%\] {
   left: 53%;
+}
+
+.ml-20 {
+  margin-left: 5rem;
+}
+
+.ml-24 {
+  margin-left: 6rem;
 }
 
 .ml-3 {
@@ -556,6 +568,10 @@ video {
 
 .ml-6 {
   margin-left: 1.5rem;
+}
+
+.ml-\[6\%\] {
+  margin-left: 6%;
 }
 
 .mr-1 {
@@ -586,10 +602,6 @@ video {
   margin-top: 1.75rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .box-border {
   box-sizing: border-box;
 }
@@ -618,8 +630,28 @@ video {
   height: 4rem;
 }
 
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
 .h-9 {
   height: 2.25rem;
+}
+
+.h-\[100\%\] {
+  height: 100%;
+}
+
+.h-\[11\%\] {
+  height: 11%;
 }
 
 .h-\[12\%\] {
@@ -642,8 +674,16 @@ video {
   height: 85%;
 }
 
+.h-\[88\%\] {
+  height: 88%;
+}
+
 .h-\[90\%\] {
   height: 90%;
+}
+
+.h-\[92\%\] {
+  height: 92%;
 }
 
 .h-full {
@@ -652,10 +692,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[10\%\] {
-  height: 10%;
 }
 
 .w-1\/2 {
@@ -668,6 +704,10 @@ video {
 
 .w-12 {
   width: 3rem;
+}
+
+.w-14 {
+  width: 3.5rem;
 }
 
 .w-16 {
@@ -684,6 +724,10 @@ video {
 
 .w-4\/12 {
   width: 33.333333%;
+}
+
+.w-5 {
+  width: 1.25rem;
 }
 
 .w-5\/12 {
@@ -714,8 +758,16 @@ video {
   width: 25%;
 }
 
+.w-\[32\%\] {
+  width: 32%;
+}
+
 .w-\[40\%\] {
   width: 40%;
+}
+
+.w-\[45\%\] {
+  width: 45%;
 }
 
 .w-\[60\%\] {
@@ -748,14 +800,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[30\%\] {
-  width: 30%;
 }
 
 .cursor-pointer {
@@ -800,6 +844,14 @@ video {
   overflow: auto;
 }
 
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .rounded-3xl {
   border-radius: 1.5rem;
 }
@@ -816,13 +868,35 @@ video {
   border-radius: 0.75rem;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .border-2 {
   border-width: 2px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.border-b-4 {
+  border-bottom-width: 4px;
 }
 
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.border-sky-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(2 132 199 / var(--tw-border-opacity));
+}
+
+.bg-green-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
 }
 
 .bg-sky-100 {
@@ -835,6 +909,11 @@ video {
   background-color: rgb(125 211 252 / var(--tw-bg-opacity));
 }
 
+.bg-sky-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(2 132 199 / var(--tw-bg-opacity));
+}
+
 .bg-slate-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
@@ -843,16 +922,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-slate-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
-}
-
-.bg-slate-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
 }
 
 .p-1 {
@@ -870,6 +939,10 @@ video {
 
 .ps-12 {
   padding-inline-start: 3rem;
+}
+
+.font-sans {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .font-serif {
@@ -893,6 +966,16 @@ video {
 .text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.text-sky-800 {
+  --tw-text-opacity: 1;
+  color: rgb(7 89 133 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .placeholder-gray-500::-moz-placeholder {
@@ -929,6 +1012,11 @@ video {
 .hover\:bg-sky-300:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(125 211 252 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-slate-100:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-slate-200:hover {
