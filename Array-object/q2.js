@@ -38,3 +38,68 @@ function avg(arr) {
     }
     console.log(count / arr.length);
 }
+
+//range of the ages
+function range(arr) {
+    function max() {
+        let max = arr[0];
+        for(let i = 0  ; i < arr.length ; i++){
+            if(max < arr[i]){
+                max = arr[i];
+            }
+        }
+        return max;
+    }
+    function min() {
+        let min = arr[0];
+        for (let i = 0; i < arr.length; i++) {
+            if (min > arr[i]) {
+                min = arr[i];
+            }
+        }
+        return min;
+    }
+
+    console.log(max() - min());
+}
+
+//compare
+
+function compare(arr) {
+    function max() {
+        let max = arr[0];
+        for (let i = 0; i < arr.length; i++) {
+            if (max < arr[i]) {
+                max = arr[i];
+            }
+        }
+        return max;
+    }
+    function min() {
+        let min = arr[0];
+        for (let i = 0; i < arr.length; i++) {
+            if (min > arr[i]) {
+                min = arr[i];
+            }
+        }
+        return min;
+    }
+    function avg() {
+        let count = 0;
+        for (let i = 0; i < arr.length; i++) {
+            count += arr[i];
+        }
+        return count / arr.length;
+    }
+
+    let ans = Math.abs(min() - avg());
+    let ans1 = Math.abs(max() - avg());
+
+    return Math.max(ans , ans1);
+}
+
+task1(ages);
+task2(ages);
+avg(ages);
+range(ages);
+compare(ages)
